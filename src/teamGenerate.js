@@ -5,12 +5,12 @@ const generateTeam = team => {
             <div class="card employee-card">
                 <div class="card-header bg-primary text-white"
                     <h2 class="card-title">${manager.getName()}</h2>
-                    <h3 class="card-title">${manager.getRole()}</h3>
+                    <h3 class="card-title"><i class="bi bi-cup-fill mr-3"></i>${manager.getRole()}</h3>
                 </div>
                 <div class="card-body">
                     <ul class="list-group">
                         <li class="list-group-item">ID: ${manager.getId()}</li>
-                        <li class="list-group-item">Email: <a href="TBDNAME:${manager.getEmail()}">${manager.getEmail()}</a></li>
+                        <li class="list-group-item">Email: <a href="EMAIL:${manager.getEmail()}">${manager.getEmail()}</a></li>
                         <li class="list-group-item">Office Number: ${manager.getOfficeNumber()}</li>
                     </ul>
                 </div>
@@ -24,12 +24,12 @@ const generateTeam = team => {
         <div class="card employee-card">
             <div class="card-header bg-primary text-white">
                 <h2 class="card-title">${engineer.getName()}</h2>
-                <h3 class="card-title">${engineer.getRole()}</h3>
+                <h3 class="card-title"><i class="bi bi-eyeglasses mr-3"></i>${engineer.getRole()}</h3>
             </div> 
             <div class="card-body">
                 <ul class="list-group">
                     <li class="list-group-item">ID: ${engineer.getId()}</li>
-                    <li class="list-group-item">Email: <a href="TBDNAME:${engineer.getEmail()}">${engineer.getEmail()}</a></li>
+                    <li class="list-group-item">Email: <a href="EMAIL:${engineer.getEmail()}">${engineer.getEmail()}</a></li>
                     <li class="list-group-item">Github: <a href="https://Github.com/${engineer.getGithub()}">${engineer.getGithub()}</a></li>
                 </ul>
             </div>
@@ -42,12 +42,12 @@ const generateTeam = team => {
         <div class="card employee-card">
         <div class="text-white bg-primary card-header">
             <h2 class="card-title">${intern.getName()}</h2>
-            <h3 class="card-title">${intern.getRole()}</h3>
+            <h3 class="card-title"><i class="bi bi-mortarboard-fill mr-3"></i>${intern.getRole()}</h3>
         </div> 
         <div class="card-body">
             <ul class="list-group">
                 <li class="list-group-item">ID: ${intern.getId()}</li>
-                <li class="list-group-item">Email: <a href="TBDNAME:${intern.getEmail()}">${intern.getEmail()}</a></li>
+                <li class="list-group-item">Email: <a href="EMAIL:${intern.getEmail()}">${intern.getEmail()}</a></li>
                 <li class="list-group-item">School: ${intern.getSchool()}</li>
             </ul>
         </div>
@@ -87,6 +87,7 @@ module.exports = team => {
     <title>My Team</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
 </head>
 
 <body>
