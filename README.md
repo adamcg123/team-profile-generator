@@ -24,7 +24,7 @@ the tutorial below is how to use the app and populate it with data
 
 ## Tutorial
 
-![video](./assets/images/tutorial.mp4)
+![mp4](./assets/images/tutorial.mp4)
 
 
 
