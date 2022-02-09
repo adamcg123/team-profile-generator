@@ -24,7 +24,7 @@ the tutorial below is how to use the app and populate it with data
 
 ## Tutorial
 
-![mp4](./assets/images/tutorial.mp4)
+the tutorial vid is in the assets/images folder
 
 
 
