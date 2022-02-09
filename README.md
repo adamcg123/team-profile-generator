@@ -2,7 +2,7 @@
 
 
 ## Deployed Link To The Team Generator
-https://adamcg123.github.io/team-profile-generator/
+https://adamcg123.github.io/team-profile-generator/dist/team.html
 
 ## What Is It 
 It is a team generator that allows you to make a team and will give their names, job title, their ID, office number, 
